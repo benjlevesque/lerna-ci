@@ -1,0 +1,13 @@
+{
+  "name": "lerna-ci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lerna": "^3.10.7"
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "publish": "lerna publish --cd-version=$LERNA_LEVEL --yes --independent"
+  }
+}
