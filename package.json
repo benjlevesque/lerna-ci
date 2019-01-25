@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "lerna run build",
-    "publish": "lerna publish --cd-version=$LERNA_LEVEL --yes --independent"
+    "lerna:install": "lerna bootstrap",
+    "lerna:publish": "lerna publish --canary --yes"
   }
 }
