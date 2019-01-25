@@ -5,5 +5,9 @@
   "license": "MIT",
   "scripts": {
     "build": "echo Building"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "4c89922b90512ae7862089aec39cf59491d5ba91"
 }
