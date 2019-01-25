@@ -1,5 +1,5 @@
 {
-  "name": "lerna-test1",
+  "name": "@benjlevesque/lerna-test1",
   "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
