@@ -9,6 +9,6 @@
   "scripts": {
     "build": "lerna run build",
     "lerna:install": "lerna bootstrap",
-    "lerna:publish": "lerna publish --from-git --yes"
+    "lerna:publish": "lerna publish from-git"
   }
 }
